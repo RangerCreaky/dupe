@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://Mr_infinity:g9FXQNMUi!z87Fq@cluster0.sr6pr9r.mongodb.net/?retryWrites=true&w=majority",
+    "jwtsecret": "hello world @ 123123123",
+    "admin": "admin@gmail.com"
+}

@@ -1,0 +1,49 @@
+<!-- redirect in register/login to the individual produc component
+conditional routing of login and logout : if the user is already authenticated then he should register or login again
+check for error alerts:  all should be of same format 
+load the user in every parent component
+
+
+
+Front-end
+Front end padding and media queries
+alert background and border radius
+alert transition and delay
+change login logout to profile
+Paginated frontend
+
+
+Featured -- Backend and api integrate
+-->
+
+BACKEND
+1. Get Single Product backend
+2. Single Product integrate api
+
+
+BUY NOW:
+1. Login
+2. Email & Phone number verify
+3. Address
+4. Check if you deliver to that pin code
+5. Payment integration OR Cash on Delivery
+6. Track The orders : Profile page : Front end and backend
+7. Filters : price , category
+
+
+ADMIN
+
+1. Add products
+2. Update products
+3. remove products
+4. Read Prodcuts
+
+5. User details
+6. All current Orders
+7. Previous orders
+8. Finish Order
+
+Less priority
+10. banish users
+11. Google auth
+12. Change carousel from Admin
