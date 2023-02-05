@@ -15,11 +15,11 @@ Paginated frontend
 
 Featured -- Backend and api integrate
 -->
-
+{
 BACKEND
 1. Get Single Product backend
-2. Single Product integrate api
-
+2. Single Product integrate api}
+t
 
 BUY NOW:
 1. Login

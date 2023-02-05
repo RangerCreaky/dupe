@@ -10,7 +10,6 @@ const isAdmin = require('../../middlewares/isAdmin');
 const paginate = require('../../middlewares/paginate');
 // const User = require('../../modals/User');
 const Product = require('../../modals/Product');
-
 const genRandomUUID = () => {
     let uuid = uuidv4();
     return uuid;
@@ -46,6 +45,20 @@ const upload = multer({ storage, fileFilter })
 router.get("/", paginate(Product), (req, res) => {
     res.status(200).json(res.paginatedResults);
 });
+
+
+////
+ router.get("/:id",async (req, res) => {
+    try {
+        const product=await Product.findOne({_id:req.params.id})
+        res.status(200).json(product);
+    } catch (err) {
+        if (err) console.error(err);
+        res.status(500);
+    }
+});
+/////
+
 
 // @route : Post /api/products/add
 // @desc  : user login

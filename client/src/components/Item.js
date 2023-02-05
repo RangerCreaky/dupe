@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react';
-// import CardRender from './CardRender';
+//import CardRender from './CardRender';
 import { useSelector, useDispatch } from 'react-redux';
 import { getSingleProduct } from '../slices/shopSlice';
 import { useParams } from 'react-router-dom';
 
 const Item = () => {
     const product = useSelector(state => state?.shop?.product);
-    if (product) console.log(product);
-
+    console.log(product);
     const dispatch = useDispatch();
     const { id } = useParams();
-    console.log(id);
+    console.log(id+"dfdfd");
     useEffect(() => {
         dispatch(getSingleProduct(id));
     }, [dispatch, id])
