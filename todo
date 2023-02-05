@@ -15,11 +15,13 @@ Paginated frontend
 
 Featured -- Backend and api integrate
 -->
-{
+
 BACKEND
-1. Get Single Product backend
-2. Single Product integrate api}
-t
+1. Get Single Product backend                                    --------done
+2. Single Product integrate api                                  --------done
+3. Add reviews in backend                                        --------removed reviews in code
+4. Instock of each product not there in features                 --------done
+5. like button action
 
 BUY NOW:
 1. Login
